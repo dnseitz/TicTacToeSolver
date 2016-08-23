@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		089F27FC1D597AA6001132F0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F27FB1D597AA6001132F0 /* main.swift */; };
+		089F28031D59A6AD001132F0 /* Negamax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F28021D59A6AD001132F0 /* Negamax.swift */; };
+		089F28051D59A6C9001132F0 /* Gamevalue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F28041D59A6C9001132F0 /* Gamevalue.swift */; };
+		08FCFC201D5FE4A000A59EE5 /* Symmetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FCFC1F1D5FE4A000A59EE5 /* Symmetry.swift */; };
+		08FCFC221D5FF0D000A59EE5 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FCFC211D5FF0D000A59EE5 /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		089F27F81D597AA6001132F0 /* TicTacToeSolver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TicTacToeSolver; sourceTree = BUILT_PRODUCTS_DIR; };
 		089F27FB1D597AA6001132F0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		089F28021D59A6AD001132F0 /* Negamax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Negamax.swift; sourceTree = "<group>"; };
+		089F28041D59A6C9001132F0 /* Gamevalue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gamevalue.swift; sourceTree = "<group>"; };
+		08FCFC1F1D5FE4A000A59EE5 /* Symmetry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Symmetry.swift; sourceTree = "<group>"; };
+		08FCFC211D5FF0D000A59EE5 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				089F27FB1D597AA6001132F0 /* main.swift */,
+				089F28021D59A6AD001132F0 /* Negamax.swift */,
+				089F28041D59A6C9001132F0 /* Gamevalue.swift */,
+				08FCFC1F1D5FE4A000A59EE5 /* Symmetry.swift */,
+				08FCFC211D5FF0D000A59EE5 /* Board.swift */,
 			);
 			path = TicTacToeSolver;
 			sourceTree = "<group>";
@@ -119,7 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				089F28051D59A6C9001132F0 /* Gamevalue.swift in Sources */,
 				089F27FC1D597AA6001132F0 /* main.swift in Sources */,
+				08FCFC221D5FF0D000A59EE5 /* Board.swift in Sources */,
+				089F28031D59A6AD001132F0 /* Negamax.swift in Sources */,
+				08FCFC201D5FE4A000A59EE5 /* Symmetry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +257,7 @@
 				089F28011D597AA6001132F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
